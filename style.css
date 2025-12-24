@@ -340,6 +340,13 @@
       transition: all 0.3s ease;
     }
 
+    .video-frame--vertical {
+      max-width: 240px;
+      margin: 0 auto;
+      aspect-ratio: 9 / 16;
+      padding-top: 0;
+    }
+
     .video-frame:hover {
       border-color: rgba(110, 240, 192, 0.4);
       box-shadow: 0 16px 48px rgba(110, 240, 192, 0.15);
